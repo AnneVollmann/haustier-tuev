@@ -6,9 +6,9 @@ class HomePage extends Component {
     state = {  } 
     render() { 
         return  <div className='pets-list'>
-                    <PetCard petName="meeri a" img="1"/>
-                    <PetCard petName="meeri b" img="2"/>
-                    <PetCard petName="meeri c" img="3"/>
+                    <PetCard petName="Pauli" img="1"/>
+                    <PetCard petName="Frieda" img="3"/>
+                    <PetCard petName="Elli" img="2"/>
                 </div>;
     }
 }

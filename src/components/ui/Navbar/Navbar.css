@@ -1,9 +1,24 @@
-.navbar {
-    position: sticky;
-    bottom: 0;
+.btn {
+    width: 32px;
+    aspect-ratio: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-a:hover {
+.btn:hover {
     cursor: pointer;
-    transform: scale(1.02);
+    transform: scale(1.2);
+}
+
+.btn-home {
+    background-image: url(../../../../public/assets/icons/house.svg);
+}
+
+.btn-new-entry {
+    background-image: url(../../../../public/assets/icons/plus-circle.svg);
+}
+
+.btn-settings {
+    background-image: url(../../../../public/assets/icons/gear.svg);
 }

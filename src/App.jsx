@@ -5,10 +5,10 @@ import HomePage from './pages/HomePage/HomePage';
 class App extends Component {
     state = {}
     render() {
-        return  <React.Fragment>
-                    <HomePage />
-                    <Navbar />
-                </React.Fragment>;
+        return  <main>
+                    <HomePage/>
+                    <Navbar/>
+                </main>;
     }
 }
 

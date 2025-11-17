@@ -1,4 +1,5 @@
 .pets-list {
+    min-height: calc(100dvh - 48px);
     width: 80%;
     padding: 24px 0;
     gap: 16px;
