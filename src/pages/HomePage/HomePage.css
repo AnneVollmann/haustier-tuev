@@ -1,0 +1,9 @@
+.pets-list {
+    width: 80%;
+    padding: 24px 0;
+    gap: 16px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

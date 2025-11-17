@@ -1,0 +1,9 @@
+.navbar {
+    position: sticky;
+    bottom: 0;
+}
+
+a:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}

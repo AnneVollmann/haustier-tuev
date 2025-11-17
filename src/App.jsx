@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import Navbar from './components/navbar';
-import Pet from './components/pet';
+import Navbar from './components/ui/Navbar/Navbar';
+import HomePage from './pages/HomePage/HomePage';
 
 class App extends Component {
     state = {}
     render() {
         return  <React.Fragment>
+                    <HomePage />
                     <Navbar />
-                    <div className='pets-list'>
-                        <Pet />
-                        <Pet />
-                        <Pet />
-                    </div>
                 </React.Fragment>;
     }
 }
