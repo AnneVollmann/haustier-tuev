@@ -1,7 +1,11 @@
+.logo {
+    max-width: 100%;
+}
+
 .pets-list {
     min-height: calc(100dvh - 48px);
     width: 80%;
-    padding: 24px 0;
+    padding-top: 48px;
     gap: 16px;
     justify-self: center;
     display: flex;

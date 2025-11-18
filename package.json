@@ -1,5 +1,5 @@
 {
-  "name": "haustier-tuev",
+  "name": "pet-weight-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

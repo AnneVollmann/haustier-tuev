@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Navbar from './components/ui/Navbar/Navbar';
 import HomePage from './pages/HomePage/HomePage';
 

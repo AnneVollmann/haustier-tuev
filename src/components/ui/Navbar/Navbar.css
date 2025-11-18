@@ -1,3 +1,13 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar .container-fluid {
+    justify-content: space-around;
+}
+
 .btn {
     width: 32px;
     aspect-ratio: 1;
